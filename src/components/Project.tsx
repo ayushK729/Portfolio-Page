@@ -3,7 +3,7 @@ import mock01 from '../assets/images/mock1_HR.jpeg';
 import mock02 from '../assets/images/mock2_Sales.jpeg';
 import mock03 from '../assets/images/mock3_Iris.jpeg';
 import mock04 from '../assets/images/mock4_weather.jpeg';
-import mock05 from '../assets/images/mock05.png';
+import mock05 from '../assets/images/Fintech_db.jpeg';
 import mock06 from '../assets/images/mock06.png';
 import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
@@ -36,11 +36,11 @@ function Project() {
                 <a href="https://github.com/ayushK729/Weather-Watch" target="_blank" rel="noreferrer"><h2>Weather Watch</h2></a>
                 <p>Developed a weather application in Python using Tkinter library for UI elements and OpenWeatherMap API for weather data.</p>
             </div>
-            {/* <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div> */}
+            <div className="project">
+                <a href="https://github.com/ayushK729/Banking-Risk-Analytics-Dashboard" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/ayushK729/Banking-Risk-Analytics-Dashboard" target="_blank" rel="noreferrer"><h2>Banking Risk Analytics Dashboard</h2></a>
+                <p>An end-to-end financial analytics project that leverages MySQL and Power BI to transform raw banking data into interactive dashboards, enabling customer risk analysis, KPI tracking, and data-driven business insights across five countries.</p>
+            </div>
             {/* <div className="project">
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
